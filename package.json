@@ -34,7 +34,7 @@
     "ffi": "2.0.0"
   },
   "optionalDependencies": {
-    "serialport": "3.1.2",
+    "serialport": "6.0.1",
     "i2c": "0.2.3",
     "epoll": "0.1.18",
     "pi-spi": "1.0.1",
