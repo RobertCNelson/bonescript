@@ -1,7 +1,7 @@
 var io = require('../node_modules/socket.io/node_modules/socket.io-client');
 var fs = require('fs');
 
-var clientName = process.env.TARGET_NAME || 'http://192.168.7.2:80';
+var clientName = process.env.TARGET_NAME || 'http://192.168.7.2:8000';
 
 if(process.argv.length != 3) {
     console.log('Usage: node ' + process.argv[1] + ' <app.js>');

@@ -26,7 +26,7 @@ _bonescript.on.initialized = function () {};
 function _onSocketIOLoaded() {
     //console.log("socket.io loaded");
     var socket = io.connect('___INSERT_HOST___', {
-        port: 80
+        port: 8000
     });
     socket.on('require', getRequireData);
     socket.on('bonescript', _seqcall);

@@ -18,7 +18,7 @@ myrequire('systemd', function () {
 
 var serverStart = function (port, directory, callback) {
     if (port === undefined) {
-        port = (process.env.LISTEN_PID > 0) ? 'systemd' : ((process.env.PORT) ? process.env.PORT : 80);
+        port = (process.env.LISTEN_PID > 0) ? 'systemd' : ((process.env.PORT) ? process.env.PORT : 8000);
     }
     if (directory === undefined) {
         directory = (process.env.SERVER_DIR) ? process.env.SERVER_DIR : '/usr/share/bone101';
